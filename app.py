@@ -1,5 +1,5 @@
 
-mport streamlit as st
+import streamlit as st
 import joblib
 model = joblib.load("housing_Price_model.pkl")
 st.title("House Prediction (lakhs)")
