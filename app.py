@@ -6,8 +6,6 @@ model = joblib.load("housing_Price_model.pkl")
 st.title("House Prediction (lakhs)")
 st.write("Enter the input ahd hit predict to get a estimated price for your house!")
 
-#2
-
 area_sqft = st.number_input("Area(Sqft)",min_value=200.0,max_value=10000.0,value=1200.0,step=50.0)
 bedrooms = st.number_input("bedroom",min_value=1,max_value=10,value=1200.0,step=1)
 bathrooms = st.number_input("bathrooms",min_value=1,max_value=10,value=1,step=1)
